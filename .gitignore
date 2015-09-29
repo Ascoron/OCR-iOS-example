@@ -1,0 +1,10 @@
+build/
+xcuserdata
+*.xccheckout
+DerivedData
+*.ipa
+*.xcuserstate
+.DS_Store
+Pods/
+Podfile.lock
+*.lock

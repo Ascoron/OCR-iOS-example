@@ -14,6 +14,15 @@
 		03AEDEF51BB93EEF00F0C47E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AEDEF41BB93EEF00F0C47E /* Images.xcassets */; };
 		03AEDEF81BB93EEF00F0C47E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03AEDEF61BB93EEF00F0C47E /* LaunchScreen.xib */; };
 		03AEDF041BB93EEF00F0C47E /* OCR_MOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AEDF031BB93EEF00F0C47E /* OCR_MOCTests.m */; };
+		03AEDF0E1BB9467700F0C47E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AEDF0D1BB9467700F0C47E /* libz.dylib */; };
+		03AEDF181BB95CDE00F0C47E /* 123_black_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AEDF141BB95CDE00F0C47E /* 123_black_text.png */; };
+		03AEDF191BB95CDE00F0C47E /* 123_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AEDF151BB95CDE00F0C47E /* 123_text.png */; };
+		03AEDF1A1BB95CDE00F0C47E /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AEDF161BB95CDE00F0C47E /* 123.png */; };
+		03AEDF1B1BB95CDE00F0C47E /* 12345_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AEDF171BB95CDE00F0C47E /* 12345_black.png */; };
+		03AEE0621BB96C9D00F0C47E /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 03AEE0611BB96C9D00F0C47E /* tessdata */; };
+		03CF97621BBA721400CC48C8 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF97611BBA721400CC48C8 /* UIImage+Category.m */; };
+		03CF97651BBA756D00CC48C8 /* OCRAPIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF97641BBA756D00CC48C8 /* OCRAPIRequestManager.m */; };
+		2E3508EBD36D23FDC0E9D122 /* libPods-OCR MOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A28057A343FBF68A73468E /* libPods-OCR MOC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,19 @@
 		03AEDEFD1BB93EEF00F0C47E /* OCR MOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCR MOCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AEDF021BB93EEF00F0C47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03AEDF031BB93EEF00F0C47E /* OCR_MOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCR_MOCTests.m; sourceTree = "<group>"; };
+		03AEDF0D1BB9467700F0C47E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		03AEDF141BB95CDE00F0C47E /* 123_black_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123_black_text.png; sourceTree = "<group>"; };
+		03AEDF151BB95CDE00F0C47E /* 123_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123_text.png; sourceTree = "<group>"; };
+		03AEDF161BB95CDE00F0C47E /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		03AEDF171BB95CDE00F0C47E /* 12345_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12345_black.png; sourceTree = "<group>"; };
+		03AEE0611BB96C9D00F0C47E /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		03CF97601BBA721400CC48C8 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		03CF97611BBA721400CC48C8 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		03CF97631BBA756D00CC48C8 /* OCRAPIRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRAPIRequestManager.h; sourceTree = "<group>"; };
+		03CF97641BBA756D00CC48C8 /* OCRAPIRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCRAPIRequestManager.m; sourceTree = "<group>"; };
+		30A28057A343FBF68A73468E /* libPods-OCR MOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCR MOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41172A68FCE788C72EB2D430 /* Pods-OCR MOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR MOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCR MOC/Pods-OCR MOC.release.xcconfig"; sourceTree = "<group>"; };
+		9D29FB04956B50EF97C36A6E /* Pods-OCR MOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR MOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCR MOC/Pods-OCR MOC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AEDF0E1BB9467700F0C47E /* libz.dylib in Frameworks */,
+				2E3508EBD36D23FDC0E9D122 /* libPods-OCR MOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +90,8 @@
 				03AEDEE61BB93EEF00F0C47E /* OCR MOC */,
 				03AEDF001BB93EEF00F0C47E /* OCR MOCTests */,
 				03AEDEE51BB93EEF00F0C47E /* Products */,
+				67135629963B71F82E5A3811 /* Pods */,
+				A6E6FF43EEBECAD78CFC66B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +112,11 @@
 				03AEDEEE1BB93EEF00F0C47E /* ViewController.h */,
 				03AEDEEF1BB93EEF00F0C47E /* ViewController.m */,
 				03AEDEF11BB93EEF00F0C47E /* Main.storyboard */,
+				03CF97601BBA721400CC48C8 /* UIImage+Category.h */,
+				03CF97611BBA721400CC48C8 /* UIImage+Category.m */,
+				03CF97631BBA756D00CC48C8 /* OCRAPIRequestManager.h */,
+				03CF97641BBA756D00CC48C8 /* OCRAPIRequestManager.m */,
+				03AEE0611BB96C9D00F0C47E /* tessdata */,
 				03AEDEF41BB93EEF00F0C47E /* Images.xcassets */,
 				03AEDEF61BB93EEF00F0C47E /* LaunchScreen.xib */,
 				03AEDEE71BB93EEF00F0C47E /* Supporting Files */,
@@ -96,6 +127,10 @@
 		03AEDEE71BB93EEF00F0C47E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				03AEDF141BB95CDE00F0C47E /* 123_black_text.png */,
+				03AEDF151BB95CDE00F0C47E /* 123_text.png */,
+				03AEDF161BB95CDE00F0C47E /* 123.png */,
+				03AEDF171BB95CDE00F0C47E /* 12345_black.png */,
 				03AEDEE81BB93EEF00F0C47E /* Info.plist */,
 				03AEDEE91BB93EEF00F0C47E /* main.m */,
 			);
@@ -119,6 +154,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		67135629963B71F82E5A3811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D29FB04956B50EF97C36A6E /* Pods-OCR MOC.debug.xcconfig */,
+				41172A68FCE788C72EB2D430 /* Pods-OCR MOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6E6FF43EEBECAD78CFC66B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03AEDF0D1BB9467700F0C47E /* libz.dylib */,
+				30A28057A343FBF68A73468E /* libPods-OCR MOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03AEDF071BB93EEF00F0C47E /* Build configuration list for PBXNativeTarget "OCR MOC" */;
 			buildPhases = (
+				8AC0E092E48C14B23ACCD176 /* Check Pods Manifest.lock */,
 				03AEDEE01BB93EEF00F0C47E /* Sources */,
 				03AEDEE11BB93EEF00F0C47E /* Frameworks */,
 				03AEDEE21BB93EEF00F0C47E /* Resources */,
+				BDE9A41480391F9E99982C58 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +255,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				03AEDEF31BB93EEF00F0C47E /* Main.storyboard in Resources */,
+				03AEDF1A1BB95CDE00F0C47E /* 123.png in Resources */,
+				03AEE0621BB96C9D00F0C47E /* tessdata in Resources */,
+				03AEDF191BB95CDE00F0C47E /* 123_text.png in Resources */,
 				03AEDEF81BB93EEF00F0C47E /* LaunchScreen.xib in Resources */,
+				03AEDF1B1BB95CDE00F0C47E /* 12345_black.png in Resources */,
+				03AEDF181BB95CDE00F0C47E /* 123_black_text.png in Resources */,
 				03AEDEF51BB93EEF00F0C47E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +274,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8AC0E092E48C14B23ACCD176 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE9A41480391F9E99982C58 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCR MOC/Pods-OCR MOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03AEDEE01BB93EEF00F0C47E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +315,8 @@
 				03AEDEF01BB93EEF00F0C47E /* ViewController.m in Sources */,
 				03AEDEED1BB93EEF00F0C47E /* AppDelegate.m in Sources */,
 				03AEDEEA1BB93EEF00F0C47E /* main.m in Sources */,
+				03CF97621BBA721400CC48C8 /* UIImage+Category.m in Sources */,
+				03CF97651BBA756D00CC48C8 /* OCRAPIRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,20 +440,34 @@
 		};
 		03AEDF081BB93EEF00F0C47E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D29FB04956B50EF97C36A6E /* Pods-OCR MOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
 				INFOPLIST_FILE = "OCR MOC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCR",
+					"MOC/tesseract-ios-lib/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		03AEDF091BB93EEF00F0C47E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41172A68FCE788C72EB2D430 /* Pods-OCR MOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
 				INFOPLIST_FILE = "OCR MOC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCR",
+					"MOC/tesseract-ios-lib/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +525,7 @@
 				03AEDF091BB93EEF00F0C47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03AEDF0A1BB93EEF00F0C47E /* Build configuration list for PBXNativeTarget "OCR MOCTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +534,7 @@
 				03AEDF0C1BB93EEF00F0C47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
